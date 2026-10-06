@@ -1,0 +1,53 @@
+{
+  // An example content pack: three new blocks. Copy this folder into the Mods folder
+  // (Library > Open mods folder), rename it, change the id, and edit the numbers.
+  "format": 1,
+  "id": "example-blocks",
+  "name": "Example pack",
+  "version": "1.0.0",
+  "author": "Tunnel Job",
+  "description": "What a pack can add: three blocks (a hard stone, a see-through crystal, soft hay), a gun and a quick mode.",
+  "category": "community",
+  "blocks": [
+    {
+      "id": "marble",
+      "name": "Marble",
+      "description": "Polished stone for grand halls. Tougher than brick against blasts, slow to dig.",
+      "maxHp": 260, "resistBullet": 0, "resistExplosive": 0.8, "resistDig": 0.5, "resistCut": 1,
+      "occlusionDb": 12, "color": [236, 232, 240], "pattern": "concrete"
+    },
+    {
+      "id": "crystal",
+      "name": "Crystal",
+      "description": "A clear block you can see through. Bullets pass and break it quickly.",
+      "maxHp": 40, "resistBullet": 1.5, "resistExplosive": 2, "resistDig": 1, "resistCut": 1,
+      "bulletPenetrable": true, "transparent": true, "occlusionDb": 3, "color": [150, 230, 255], "pattern": "glass"
+    },
+    {
+      "id": "hay",
+      "name": "Hay bale",
+      "description": "Farm cover: hides you, soaks a little gunfire, and a shovel clears it in one swing.",
+      "maxHp": 20, "resistBullet": 0.6, "resistExplosive": 2, "resistDig": 2, "resistCut": 2,
+      "bulletPenetrable": true, "occlusionDb": 8, "color": [230, 196, 92], "pattern": "sandbag"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "carbine",
+      "name": "Carbine",
+      "description": "A short rifle for both sides: quicker to reload than the assault rifle, a little less reach.",
+      "side": "both", "model": "rifle",
+      "damage": 28, "rpm": 720, "magazine": 25, "reloadSeconds": 1.9, "effectiveRange": 24, "pellets": 1, "softCellMultiplier": 1
+    }
+  ],
+  "modes": [
+    {
+      "id": "quick-heist",
+      "name": "Quick heist",
+      "description": "Three on three, a short prep and three minutes to get the payload out. One round wins.",
+      "kind": "heist", "map": "first-national",
+      "prepSeconds": 20, "actionSeconds": 180, "overtimeSeconds": 60, "waveInterval": 0,
+      "securityRespawnDelay": 10, "pickupReach": 1.5, "roundsToWin": 1, "teamSize": 3
+    }
+  ]
+}

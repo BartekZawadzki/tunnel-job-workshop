@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "packs": [
+    {
+      "id": "example-blocks",
+      "name": "Example pack",
+      "version": "1.0.0",
+      "author": "Tunnel Job",
+      "description": "What a pack can add: three blocks (a hard stone, a see-through crystal, soft hay), a gun and a quick mode.",
+      "category": "community",
+      "scripts": false,
+      "size": 2300,
+      "files": [
+        {
+          "path": "pack.json",
+          "size": 2300,
+          "sha256": "50044eaa0dee8e8d397e4a107447146c49a8bccae67717fdc9c83295719ccaa4"
+        }
+      ]
+    }
+  ]
+}

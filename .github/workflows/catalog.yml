@@ -1,0 +1,23 @@
+name: build catalog
+on:
+  push:
+    branches: [main]
+    paths: ["packs/**", "tools/**"]
+permissions:
+  contents: write
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: node tools/catalog.mjs
+      - name: commit the catalogue
+        run: |
+          if git diff --quiet catalog.json; then echo "catalogue unchanged"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git commit -m "catalog: rebuild"
+          git push
