@@ -1,0 +1,20 @@
+{
+  "format": 1,
+  "id": "vampire-heist",
+  "name": "Vampire heist",
+  "version": "1.0.0",
+  "author": "Tunnel Job",
+  "description": "A heist where every kill heals the killer by 35 HP and the game calls out streaks. Shows how a mode carries a script.",
+  "category": "community",
+  "modes": [
+    {
+      "id": "vampire",
+      "name": "Vampire heist",
+      "description": "First National, 5 v 5. Kills heal; three kills in a row are announced.",
+      "kind": "heist", "map": "first-national",
+      "prepSeconds": 30, "actionSeconds": 300, "overtimeSeconds": 120, "waveInterval": 0,
+      "securityRespawnDelay": 15, "pickupReach": 1.5, "roundsToWin": 2, "teamSize": 5,
+      "scripts": ["scripts/vampire.lua"]
+    }
+  ]
+}

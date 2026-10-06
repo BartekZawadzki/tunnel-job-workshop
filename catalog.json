@@ -17,6 +17,28 @@
           "sha256": "50044eaa0dee8e8d397e4a107447146c49a8bccae67717fdc9c83295719ccaa4"
         }
       ]
+    },
+    {
+      "id": "vampire-heist",
+      "name": "Vampire heist",
+      "version": "1.0.0",
+      "author": "Tunnel Job",
+      "description": "A heist where every kill heals the killer by 35 HP and the game calls out streaks. Shows how a mode carries a script.",
+      "category": "community",
+      "scripts": true,
+      "size": 1327,
+      "files": [
+        {
+          "path": "pack.json",
+          "size": 728,
+          "sha256": "4ba72ce8b100c8cee1a8a3367bbdcfa0f41f275c6e0741290938520cd685716d"
+        },
+        {
+          "path": "scripts/vampire.lua",
+          "size": 599,
+          "sha256": "1d6091e6526f9ee10aa16e9723b9c5d77854f9ce3c345bb9e77b646c5505ad43"
+        }
+      ]
     }
   ]
 }
