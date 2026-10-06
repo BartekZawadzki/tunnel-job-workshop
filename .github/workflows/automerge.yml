@@ -1,0 +1,43 @@
+name: auto-merge data packs
+# Data-only packs merge when the check passes; packs with scripts and AI packs wait for the maintainer (README).
+# pull_request_target runs with this repository's token, so nothing from the pull request is executed: its files are
+# checked out as data next to the main branch's tool, which only reads them.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { path: base }
+      - uses: actions/checkout@v4
+        with:
+          path: pr
+          ref: ${{ github.event.pull_request.head.sha }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: only packs change
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          files=$(gh api "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" --paginate --jq '.[].filename')
+          echo "$files"
+          if echo "$files" | grep -qv '^packs/'; then echo "touches more than packs/: the maintainer reviews it"; echo "AUTO=no" >> "$GITHUB_ENV"; else echo "AUTO=yes" >> "$GITHUB_ENV"; fi
+      - name: check the packs
+        run: node base/tools/catalog.mjs --check --root pr
+      - name: merge when nothing needs a review
+        if: env.AUTO == 'yes'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          review=$(node base/tools/catalog.mjs --check --needs-review --root pr | tail -1)
+          echo "$review"
+          if [ "$review" = "REVIEW none" ]; then
+            gh pr merge ${{ github.event.pull_request.number }} --repo ${{ github.repository }} --squash
+          else
+            gh pr comment ${{ github.event.pull_request.number }} --repo ${{ github.repository }} --body "Scripts or an AI pack: waiting for the maintainer's review (${review#REVIEW })."
+          fi

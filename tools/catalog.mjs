@@ -6,7 +6,9 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1")), "..");
+// --root <dir>: check another checkout (the auto-merge workflow checks a pull request with the main branch's tool)
+const rootArg = process.argv.indexOf("--root");
+const ROOT = rootArg > 0 ? path.resolve(process.argv[rootArg + 1]) : path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1")), "..");
 const PACKS = path.join(ROOT, "packs");
 const ALLOWED = new Set([".json", ".png", ".tjmap", ".lua", ".md", ".txt"]);
 const MAX_PACK = 20 * 1024 * 1024, MAX_FILE = 8 * 1024 * 1024;
@@ -78,5 +80,8 @@ for (const id of fs.existsSync(PACKS) ? fs.readdirSync(PACKS).sort() : []) {
 
 for (const p of problems) console.log("PROBLEM " + p);
 if (problems.length > 0) { console.log(`CATALOG fail packs=${entries.length} problems=${problems.length}`); process.exit(1); }
+// packs a person reviews before they merge: any with scripts, and every AI pack (README)
+const review = entries.filter(e => e.scripts || e.category === "ai").map(e => e.id);
+if (process.argv.includes("--needs-review")) { console.log(review.length ? "REVIEW " + review.join(" ") : "REVIEW none"); process.exit(0); }
 if (!check) fs.writeFileSync(path.join(ROOT, "catalog.json"), JSON.stringify({ format: 1, packs: entries }, null, 2) + "\n");
 console.log(`CATALOG ok packs=${entries.length}${check ? " (check only)" : ""}`);

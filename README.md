@@ -19,7 +19,7 @@ saves packs into your Mods folder, ready to copy here.
    - only `.json`, `.png`, `.tjmap`, `.lua`, `.md` and `.txt` files; at most 8 MB a file and 20 MB a pack;
    - category `community` or `ai`; an `ai` pack carries `evidence.json` (its scenarios and their results, the model
      used and the token cost), which the game shows next to it.
-4. Packs with data only are merged when the check passes. Packs with scripts and every AI pack are reviewed by the
+4. Packs with data only are merged automatically when the check passes. Packs with scripts and every AI pack are reviewed by the
    maintainer first.
 
 After a merge the catalogue is rebuilt automatically, and the game sees the pack.
