@@ -27,7 +27,13 @@ jobs:
         run: |
           files=$(gh api "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" --paginate --jq '.[].filename')
           echo "$files"
-          if echo "$files" | grep -qv '^packs/'; then echo "touches more than packs/: the maintainer reviews it"; echo "AUTO=no" >> "$GITHUB_ENV"; else echo "AUTO=yes" >> "$GITHUB_ENV"; fi
+          auto=yes
+          if echo "$files" | grep -qv '^packs/'; then echo "touches more than packs/: the maintainer reviews it"; auto=no; fi
+          # only NEW packs merge by themselves: a change to a pack that already exists (someone else's, or a new version) waits for the maintainer
+          for id in $(echo "$files" | grep '^packs/' | cut -d/ -f2 | sort -u); do
+            if [ -d "base/packs/$id" ]; then echo "changes the existing pack $id: the maintainer reviews it"; auto=no; fi
+          done
+          echo "AUTO=$auto" >> "$GITHUB_ENV"
       - name: check the packs
         run: node base/tools/catalog.mjs --check --root pr
       - name: merge when nothing needs a review
