@@ -16,7 +16,7 @@ saves packs into your Mods folder, ready to copy here.
 2. Copy your pack folder into `packs/` — the folder name must be the pack id.
 3. Open a pull request. The check runs the workshop rules on it:
    - the pack id is unique, lowercase, 2–40 characters, and not `official`;
-   - only `.json`, `.png`, `.tjmap`, `.lua`, `.md` and `.txt` files; at most 8 MB a file and 20 MB a pack;
+   - only `.json`, `.png`, `.tjmap`, `.lua`, `.md` and `.txt` files; at most 8 MB a file (64 MB a map) and 80 MB a pack;
    - category `community` or `ai`; an `ai` pack carries `evidence.json` (its scenarios and their results, the model
      used and the token cost), which the game shows next to it.
 4. NEW packs with data only are merged automatically when the check passes; a change to a pack that already exists is reviewed by the maintainer. Packs with scripts and every AI pack are reviewed by the

@@ -19,6 +19,43 @@
       ]
     },
     {
+      "id": "gdansk-main-town",
+      "name": "Gdansk Main Town",
+      "version": "1.0.0",
+      "author": "Breachworks",
+      "description": "Central Gdansk at 1:1, built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Solo against bots. Needs Breachworks 1.0.1.",
+      "category": "community",
+      "scripts": false,
+      "size": 28566616,
+      "files": [
+        {
+          "path": "CREDITS.txt",
+          "size": 266,
+          "sha256": "82c98b69fc574a0c94e0850046e07473a49fd727421b6dbe30536877fc1272fc"
+        },
+        {
+          "path": "maps/gdansk-main-town.png",
+          "size": 1046025,
+          "sha256": "7ec1c226ff8ba0a9bbe28ea009346b0022f6a8294c30da4a72f09e1b178dc88e"
+        },
+        {
+          "path": "maps/gdansk-main-town.tjmap",
+          "size": 26454375,
+          "sha256": "071e5ba620e237782cc3ed34d93fe1d85f2157481f04e584591500c153faf868"
+        },
+        {
+          "path": "pack.json",
+          "size": 19925,
+          "sha256": "934e4437f5585dc2ae1a9a0aa1cf4e0dd5c72754b57a8525b2b02fa8acc2c8e7"
+        },
+        {
+          "path": "thumb.png",
+          "size": 1046025,
+          "sha256": "7ec1c226ff8ba0a9bbe28ea009346b0022f6a8294c30da4a72f09e1b178dc88e"
+        }
+      ]
+    },
+    {
       "id": "vampire-heist",
       "name": "Vampire heist",
       "version": "1.0.0",

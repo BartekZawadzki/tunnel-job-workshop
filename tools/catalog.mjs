@@ -11,7 +11,7 @@ const rootArg = process.argv.indexOf("--root");
 const ROOT = rootArg > 0 ? path.resolve(process.argv[rootArg + 1]) : path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1")), "..");
 const PACKS = path.join(ROOT, "packs");
 const ALLOWED = new Set([".json", ".png", ".tjmap", ".lua", ".md", ".txt"]);
-const MAX_PACK = 20 * 1024 * 1024, MAX_FILE = 8 * 1024 * 1024;
+const MAX_PACK = 80 * 1024 * 1024, MAX_FILE = 8 * 1024 * 1024, MAX_MAP = 64 * 1024 * 1024;   // a map of a whole city is tens of megabytes; the game's MapPublish holds the same numbers
 const ID = /^[a-z0-9][a-z0-9_-]{1,39}$/;
 const check = process.argv.includes("--check");
 const problems = [];
@@ -52,7 +52,8 @@ for (const id of fs.existsSync(PACKS) ? fs.readdirSync(PACKS).sort() : []) {
   for (const f of files) {
     const ext = path.extname(f.rel).toLowerCase();
     if (!ALLOWED.has(ext)) problems.push(`${tag}/${f.rel}: file type ${ext || "(none)"} is not allowed`);
-    if (f.size > MAX_FILE) problems.push(`${tag}/${f.rel}: larger than ${MAX_FILE / 1048576} MB`);
+    const limit = ext === ".tjmap" ? MAX_MAP : MAX_FILE;
+    if (f.size > limit) problems.push(`${tag}/${f.rel}: larger than ${limit / 1048576} MB`);
     if (ext === ".lua") scripts = true;
     total += f.size;
   }
