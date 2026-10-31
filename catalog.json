@@ -21,17 +21,42 @@
     {
       "id": "gdansk-main-town",
       "name": "Gdansk Main Town",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Breachworks",
       "description": "Central Gdansk at 1:1, built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Solo against bots. Needs Breachworks 1.0.1.",
       "category": "community",
       "scripts": false,
-      "size": 28566616,
+      "size": 29825952,
       "files": [
         {
           "path": "CREDITS.txt",
           "size": 266,
           "sha256": "82c98b69fc574a0c94e0850046e07473a49fd727421b6dbe30536877fc1272fc"
+        },
+        {
+          "path": "dluga_east.png",
+          "size": 102866,
+          "sha256": "639b67d51e6685ec6cf6c36bd9f83ec1125b43219f9d9179c7c0ffaca0f2d1cd"
+        },
+        {
+          "path": "dluga_north.png",
+          "size": 252888,
+          "sha256": "11ea6b837dc34750675cdc22ee38957e0c0000e4f5b020356cc4d9aabb2beeb4"
+        },
+        {
+          "path": "dluga_south.png",
+          "size": 252412,
+          "sha256": "98c4e08f825d1fb17552376a27465bf62e97144274e0aea37497e0ef201954bc"
+        },
+        {
+          "path": "dluga_top.png",
+          "size": 660233,
+          "sha256": "4ea8ac88fbcddc72515185de4dc1f6dff9c78d8f9b0f07aeef3ca5ca09910bc6"
+        },
+        {
+          "path": "dluga_west.png",
+          "size": 100655,
+          "sha256": "defc5f1d4cddc188480a392d9c45013531a4852a6b68e86ef271c0fe0640e727"
         },
         {
           "path": "maps/gdansk-main-town.png",
@@ -40,13 +65,13 @@
         },
         {
           "path": "maps/gdansk-main-town.tjmap",
-          "size": 26454375,
-          "sha256": "071e5ba620e237782cc3ed34d93fe1d85f2157481f04e584591500c153faf868"
+          "size": 26324936,
+          "sha256": "599d274bd3f955a7dcc6ac054271434806198b068d49ad2448d36cdb2401e88a"
         },
         {
           "path": "pack.json",
-          "size": 19925,
-          "sha256": "934e4437f5585dc2ae1a9a0aa1cf4e0dd5c72754b57a8525b2b02fa8acc2c8e7"
+          "size": 39646,
+          "sha256": "a070c2cf22e71fec23737d0459779ca3ce9b07cc718c1c7caeb6e25038e1c7cf"
         },
         {
           "path": "thumb.png",
