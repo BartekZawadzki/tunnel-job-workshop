@@ -2,7 +2,7 @@
   "format": 1,
   "id": "gdansk-main-town",
   "name": "Gdansk Main Town",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "author": "Breachworks",
   "description": "Central Gdansk at 1:1. built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Deathmatch, battle royale and the Apocalypse, against bots. Needs Breachworks 1.1.0.",
   "category": "community",

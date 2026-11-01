@@ -21,12 +21,12 @@
     {
       "id": "gdansk-main-town",
       "name": "Gdansk Main Town",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "author": "Breachworks",
       "description": "Central Gdansk at 1:1. built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Deathmatch, battle royale and the Apocalypse, against bots. Needs Breachworks 1.1.0.",
       "category": "community",
       "scripts": false,
-      "size": 31799490,
+      "size": 31886213,
       "files": [
         {
           "path": "CREDITS.txt",
@@ -40,13 +40,13 @@
         },
         {
           "path": "maps/gdansk-main-town.tjmap",
-          "size": 29661366,
-          "sha256": "29073b3341471cce376a4f8897c65ed6cebc8aa83ea99a8b0f456244a5bd31c2"
+          "size": 29748089,
+          "sha256": "0687d22e01d1dcf28fe64948594cc329acd3562ed97efe0454a5f9e45f48d724"
         },
         {
           "path": "pack.json",
           "size": 45808,
-          "sha256": "ffe09ee7a28daa5a6a95be6d35618845feea12dcec6c809c9e29684c95678a98"
+          "sha256": "a5e0feb426c04fa540ba650e5208af73fbf6491983622cd5d48bd172a1c31615"
         },
         {
           "path": "thumb.png",
@@ -58,12 +58,12 @@
     {
       "id": "gdansk-morena",
       "name": "Gdansk Morena",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "Breachworks",
       "description": "The Morena estates of Gdansk at 1:1, on their hills. built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Deathmatch, battle royale and the Apocalypse, against bots. Needs Breachworks 1.1.0.",
       "category": "community",
       "scripts": false,
-      "size": 31154859,
+      "size": 31375626,
       "files": [
         {
           "path": "CREDITS.txt",
@@ -77,13 +77,13 @@
         },
         {
           "path": "maps/gdansk-morena.tjmap",
-          "size": 29020617,
-          "sha256": "77458ca12141314f332d5e4e937b2acce5f607d1d004312e78d966e1601bcc26"
+          "size": 29241384,
+          "sha256": "7a023e67a04e3a556acb64455167cef5a75f78bb60efa70e253e12ca35092fe0"
         },
         {
           "path": "pack.json",
           "size": 33526,
-          "sha256": "7a3c10b073c608527a17a528b0d8c92ef983ffe5f5927008f87e52cbe9e9a37f"
+          "sha256": "19b946bfc646f1a869145db18e635b027511c1cf3344c432c6cb9278cfbf894c"
         },
         {
           "path": "thumb.png",
