@@ -21,12 +21,12 @@
     {
       "id": "gdansk-main-town",
       "name": "Gdansk Main Town",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": "Breachworks",
       "description": "Central Gdansk at 1:1, built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Solo against bots. Needs Breachworks 1.0.1.",
       "category": "community",
       "scripts": false,
-      "size": 28456898,
+      "size": 31797916,
       "files": [
         {
           "path": "CREDITS.txt",
@@ -40,13 +40,13 @@
         },
         {
           "path": "maps/gdansk-main-town.tjmap",
-          "size": 26324936,
-          "sha256": "599d274bd3f955a7dcc6ac054271434806198b068d49ad2448d36cdb2401e88a"
+          "size": 29661131,
+          "sha256": "c8f12f3944f2b2654be0817cd9049014ca5787c4a19b933b7ea19ad333f4457a"
         },
         {
           "path": "pack.json",
-          "size": 39646,
-          "sha256": "a070c2cf22e71fec23737d0459779ca3ce9b07cc718c1c7caeb6e25038e1c7cf"
+          "size": 44469,
+          "sha256": "f05aab6503a2bd0ba51ab836373342aca4e4abd4c6262788d35b3f2053454a3d"
         },
         {
           "path": "thumb.png",

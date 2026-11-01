@@ -2,7 +2,7 @@
   "format": 1,
   "id": "gdansk-main-town",
   "name": "Gdansk Main Town",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Breachworks",
   "description": "Central Gdansk at 1:1, built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Solo against bots. Needs Breachworks 1.0.1.",
   "category": "community",
@@ -809,6 +809,192 @@
       "texture": ""
     },
     {
+      "id": "door-oak",
+      "name": "Oak door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        122,
+        86,
+        54
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-dark",
+      "name": "Dark oak door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        78,
+        53,
+        36
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-green",
+      "name": "Green door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        47,
+        84,
+        66
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-blue",
+      "name": "Blue door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        47,
+        74,
+        102
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-red",
+      "name": "Red door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        110,
+        48,
+        38
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-white",
+      "name": "White door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        232,
+        226,
+        212
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
       "id": "sacred-24",
       "name": "Sacred stone",
       "description": "A place of worship: it cannot be destroyed.",
@@ -1587,6 +1773,37 @@
       ],
       "pattern": "plain",
       "texture": ""
+    },
+    {
+      "id": "sacred-161",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        78,
+        53,
+        36
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
     }
   ],
   "weapons": [],
@@ -1649,45 +1866,52 @@
         "157": "gdansk-main-town:paint-ochre",
         "158": "gdansk-main-town:paint-wine",
         "159": "gdansk-main-town:paint-grey",
-        "160": "gdansk-main-town:sacred-24",
-        "161": "gdansk-main-town:sacred-1",
-        "162": "gdansk-main-town:sacred-16",
-        "163": "gdansk-main-town:sacred-37",
-        "164": "gdansk-main-town:sacred-138",
-        "165": "gdansk-main-town:sacred-136",
-        "166": "gdansk-main-town:sacred-28",
-        "167": "gdansk-main-town:sacred-131",
-        "168": "gdansk-main-town:sacred-4",
-        "169": "gdansk-main-town:sacred-5",
-        "170": "gdansk-main-town:sacred-121",
-        "171": "gdansk-main-town:sacred-13",
-        "172": "gdansk-main-town:sacred-133",
-        "173": "gdansk-main-town:sacred-39",
-        "174": "gdansk-main-town:sacred-30",
-        "175": "gdansk-main-town:sacred-139",
-        "176": "gdansk-main-town:sacred-6",
-        "177": "gdansk-main-town:sacred-152",
-        "178": "gdansk-main-town:sacred-120",
-        "179": "gdansk-main-town:sacred-141",
-        "180": "gdansk-main-town:sacred-143",
-        "181": "gdansk-main-town:sacred-124",
-        "182": "gdansk-main-town:sacred-151",
-        "183": "gdansk-main-town:sacred-156",
-        "184": "gdansk-main-town:sacred-159",
-        "185": "gdansk-main-town:sacred-155",
-        "186": "gdansk-main-town:sacred-154",
-        "187": "gdansk-main-town:sacred-158",
-        "188": "gdansk-main-town:sacred-14",
-        "189": "gdansk-main-town:sacred-157",
-        "190": "gdansk-main-town:sacred-144",
-        "191": "gdansk-main-town:sacred-125",
-        "192": "gdansk-main-town:sacred-132",
-        "193": "gdansk-main-town:sacred-122",
-        "194": "gdansk-main-town:sacred-137",
-        "195": "gdansk-main-town:sacred-128",
-        "196": "gdansk-main-town:sacred-142",
-        "197": "gdansk-main-town:sacred-153",
-        "198": "gdansk-main-town:sacred-11"
+        "160": "gdansk-main-town:door-oak",
+        "161": "gdansk-main-town:door-dark",
+        "162": "gdansk-main-town:door-green",
+        "163": "gdansk-main-town:door-blue",
+        "164": "gdansk-main-town:door-red",
+        "165": "gdansk-main-town:door-white",
+        "166": "gdansk-main-town:sacred-24",
+        "167": "gdansk-main-town:sacred-1",
+        "168": "gdansk-main-town:sacred-16",
+        "169": "gdansk-main-town:sacred-37",
+        "170": "gdansk-main-town:sacred-138",
+        "171": "gdansk-main-town:sacred-136",
+        "172": "gdansk-main-town:sacred-28",
+        "173": "gdansk-main-town:sacred-131",
+        "174": "gdansk-main-town:sacred-4",
+        "175": "gdansk-main-town:sacred-5",
+        "176": "gdansk-main-town:sacred-121",
+        "177": "gdansk-main-town:sacred-13",
+        "178": "gdansk-main-town:sacred-133",
+        "179": "gdansk-main-town:sacred-39",
+        "180": "gdansk-main-town:sacred-30",
+        "181": "gdansk-main-town:sacred-139",
+        "182": "gdansk-main-town:sacred-6",
+        "183": "gdansk-main-town:sacred-152",
+        "184": "gdansk-main-town:sacred-120",
+        "185": "gdansk-main-town:sacred-141",
+        "186": "gdansk-main-town:sacred-143",
+        "187": "gdansk-main-town:sacred-124",
+        "188": "gdansk-main-town:sacred-151",
+        "189": "gdansk-main-town:sacred-156",
+        "190": "gdansk-main-town:sacred-159",
+        "191": "gdansk-main-town:sacred-155",
+        "192": "gdansk-main-town:sacred-154",
+        "193": "gdansk-main-town:sacred-158",
+        "194": "gdansk-main-town:sacred-14",
+        "195": "gdansk-main-town:sacred-157",
+        "196": "gdansk-main-town:sacred-144",
+        "197": "gdansk-main-town:sacred-125",
+        "198": "gdansk-main-town:sacred-132",
+        "199": "gdansk-main-town:sacred-122",
+        "200": "gdansk-main-town:sacred-137",
+        "201": "gdansk-main-town:sacred-128",
+        "202": "gdansk-main-town:sacred-142",
+        "203": "gdansk-main-town:sacred-153",
+        "204": "gdansk-main-town:sacred-11",
+        "205": "gdansk-main-town:sacred-161"
       }
     }
   ]
