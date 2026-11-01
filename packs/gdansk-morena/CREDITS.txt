@@ -1,0 +1,2 @@
+Map data: (c) OpenStreetMap contributors, Open Database License (https://www.openstreetmap.org/copyright).
+Height data and air photo: Numeryczny Model Terenu, Numeryczny Model Pokrycia Terenu and Ortofotomapa, Glowny Urzad Geodezji i Kartografii (geoportal.gov.pl).

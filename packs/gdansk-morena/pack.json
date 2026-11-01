@@ -1,0 +1,1483 @@
+{
+  "format": 1,
+  "id": "gdansk-morena",
+  "name": "Gdansk Morena",
+  "version": "1.0.0",
+  "author": "Breachworks",
+  "description": "The Morena estates of Gdansk at 1:1, on their hills. built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Deathmatch, battle royale and the Apocalypse, against bots. Needs Breachworks 1.1.0.",
+  "category": "community",
+  "requires": [],
+  "blocks": [
+    {
+      "id": "plaster-cream",
+      "name": "Cream plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        230,
+        217,
+        188
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-white",
+      "name": "White plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        239,
+        237,
+        230
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-salmon",
+      "name": "Salmon plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        229,
+        160,
+        126
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-rose",
+      "name": "Rose plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        235,
+        196,
+        180
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-yellow",
+      "name": "Yellow plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        235,
+        203,
+        115
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-ochre",
+      "name": "Ochre plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        207,
+        159,
+        82
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-umber",
+      "name": "Umber plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        140,
+        95,
+        69
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-green",
+      "name": "Green plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        147,
+        181,
+        154
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-teal",
+      "name": "Teal plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        111,
+        166,
+        166
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-blue",
+      "name": "Blue plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        147,
+        174,
+        203
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-red",
+      "name": "Red plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        180,
+        87,
+        74
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "gothic-brick",
+      "name": "Gothic brick",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        142,
+        63,
+        46
+      ],
+      "pattern": "brick",
+      "texture": ""
+    },
+    {
+      "id": "concrete-grey",
+      "name": "Grey render",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        166,
+        168,
+        166
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "copper",
+      "name": "Weathered copper",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        111,
+        168,
+        146
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc sheet",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        143,
+        151,
+        156
+      ],
+      "pattern": "corrugated",
+      "texture": ""
+    },
+    {
+      "id": "tile-light",
+      "name": "Light roof tile",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        206,
+        107,
+        69
+      ],
+      "pattern": "rooftile",
+      "texture": ""
+    },
+    {
+      "id": "tile-dark",
+      "name": "Dark roof tile",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        138,
+        59,
+        42
+      ],
+      "pattern": "rooftile",
+      "texture": ""
+    },
+    {
+      "id": "setts",
+      "name": "Granite setts",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        139,
+        138,
+        142
+      ],
+      "pattern": "cobble",
+      "texture": ""
+    },
+    {
+      "id": "flags",
+      "name": "Paving flags",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        183,
+        179,
+        169
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "tile-orange",
+      "name": "Orange roof tile",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        201,
+        121,
+        76
+      ],
+      "pattern": "rooftile",
+      "texture": ""
+    },
+    {
+      "id": "tile-brown",
+      "name": "Brown roof tile",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        122,
+        74,
+        54
+      ],
+      "pattern": "rooftile",
+      "texture": ""
+    },
+    {
+      "id": "tile-grey",
+      "name": "Grey roof",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        126,
+        124,
+        122
+      ],
+      "pattern": "rooftile",
+      "texture": ""
+    },
+    {
+      "id": "roof-dark",
+      "name": "Dark roof",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        74,
+        74,
+        78
+      ],
+      "pattern": "rooftile",
+      "texture": ""
+    },
+    {
+      "id": "stone-pale",
+      "name": "Pale sandstone",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        214,
+        203,
+        178
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "stone-grey",
+      "name": "Grey sandstone",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        169,
+        158,
+        136
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-bordeaux",
+      "name": "Bordeaux plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        126,
+        58,
+        54
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-mustard",
+      "name": "Mustard plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        217,
+        169,
+        63
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-sage",
+      "name": "Sage plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        185,
+        194,
+        160
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-peach",
+      "name": "Peach plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        239,
+        199,
+        160
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-slate",
+      "name": "Slate plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        124,
+        143,
+        160
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-pink",
+      "name": "Pink plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        217,
+        143,
+        138
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "plaster-ivory",
+      "name": "Ivory plaster",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        240,
+        230,
+        207
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "brick-old",
+      "name": "Old brick",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        156,
+        74,
+        52
+      ],
+      "pattern": "brick",
+      "texture": ""
+    },
+    {
+      "id": "brick-dark",
+      "name": "Dark brick",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        110,
+        48,
+        38
+      ],
+      "pattern": "brick",
+      "texture": ""
+    },
+    {
+      "id": "paint-green",
+      "name": "Green room paint",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        157,
+        179,
+        154
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "paint-blue",
+      "name": "Blue room paint",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        162,
+        182,
+        201
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "paint-rose",
+      "name": "Rose wallpaper",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        216,
+        180,
+        170
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "paint-ochre",
+      "name": "Ochre room paint",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        216,
+        192,
+        136
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "paint-wine",
+      "name": "Wine wallpaper",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        138,
+        85,
+        96
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "paint-grey",
+      "name": "Warm grey room paint",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        198,
+        194,
+        184
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "door-oak",
+      "name": "Oak door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        122,
+        86,
+        54
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-dark",
+      "name": "Dark oak door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        78,
+        53,
+        36
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-green",
+      "name": "Green door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        47,
+        84,
+        66
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-blue",
+      "name": "Blue door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        47,
+        74,
+        102
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-red",
+      "name": "Red door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        110,
+        48,
+        38
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "door-white",
+      "name": "White door",
+      "description": "Gdansk Main Town.",
+      "maxHp": 60,
+      "resistBullet": 0.5,
+      "resistExplosive": 1,
+      "resistDig": 1,
+      "resistCut": 1,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 12,
+      "color": [
+        232,
+        226,
+        212
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    },
+    {
+      "id": "sacred-24",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        132,
+        128,
+        120
+      ],
+      "pattern": "fieldstone",
+      "texture": ""
+    },
+    {
+      "id": "sacred-1",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        168,
+        115,
+        69
+      ],
+      "pattern": "soil",
+      "texture": ""
+    },
+    {
+      "id": "sacred-16",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        164,
+        158,
+        152
+      ],
+      "pattern": "gravel",
+      "texture": ""
+    },
+    {
+      "id": "sacred-37",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        198,
+        170,
+        128
+      ],
+      "pattern": "sandstone",
+      "texture": ""
+    },
+    {
+      "id": "sacred-138",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        183,
+        179,
+        169
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "sacred-120",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        230,
+        217,
+        188
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "sacred-142",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        74,
+        74,
+        78
+      ],
+      "pattern": "rooftile",
+      "texture": ""
+    },
+    {
+      "id": "sacred-4",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": true,
+      "occlusionDb": 18,
+      "color": [
+        140,
+        217,
+        255
+      ],
+      "pattern": "glass",
+      "texture": ""
+    },
+    {
+      "id": "sacred-143",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        214,
+        203,
+        178
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "sacred-121",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        239,
+        237,
+        230
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "sacred-30",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        216,
+        170,
+        106
+      ],
+      "pattern": "boards",
+      "texture": ""
+    },
+    {
+      "id": "sacred-15",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        74,
+        76,
+        88
+      ],
+      "pattern": "asphalt",
+      "texture": ""
+    },
+    {
+      "id": "sacred-132",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        166,
+        168,
+        166
+      ],
+      "pattern": "concrete",
+      "texture": ""
+    },
+    {
+      "id": "sacred-152",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        156,
+        74,
+        52
+      ],
+      "pattern": "brick",
+      "texture": ""
+    },
+    {
+      "id": "sacred-136",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        138,
+        59,
+        42
+      ],
+      "pattern": "rooftile",
+      "texture": ""
+    },
+    {
+      "id": "sacred-161",
+      "name": "Sacred stone",
+      "description": "A place of worship: it cannot be destroyed.",
+      "maxHp": 10000,
+      "resistBullet": 0,
+      "resistExplosive": 0,
+      "resistDig": 0,
+      "resistCut": 0.000001,
+      "bulletPenetrable": false,
+      "transparent": false,
+      "occlusionDb": 18,
+      "color": [
+        78,
+        53,
+        36
+      ],
+      "pattern": "planks",
+      "texture": "",
+      "func": {
+        "kind": "door",
+        "params": {
+          "use": 1,
+          "team": -1,
+          "listen": 0,
+          "follow": 0,
+          "autoClose": 0,
+          "startOpen": 0
+        }
+      }
+    }
+  ],
+  "weapons": [],
+  "modes": [],
+  "characters": [],
+  "maps": [
+    {
+      "id": "gdansk-morena",
+      "name": "Gdansk Morena",
+      "description": "The Morena estates of Gdansk at 1:1, on their hills.",
+      "base": "field",
+      "file": "maps/gdansk-morena.tjmap",
+      "modes": "deathmatch,laststand,apocalypse",
+      "minPlayers": 1,
+      "recPlayers": 20,
+      "maxPlayers": 20,
+      "sizeX": 3800,
+      "sizeZ": 2880,
+      "teamSize": 10,
+      "roundSeconds": 1800,
+      "scoreLimit": 100,
+      "blocks": {
+        "120": "gdansk-morena:plaster-cream",
+        "121": "gdansk-morena:plaster-white",
+        "122": "gdansk-morena:plaster-salmon",
+        "123": "gdansk-morena:plaster-rose",
+        "124": "gdansk-morena:plaster-yellow",
+        "125": "gdansk-morena:plaster-ochre",
+        "126": "gdansk-morena:plaster-umber",
+        "127": "gdansk-morena:plaster-green",
+        "128": "gdansk-morena:plaster-teal",
+        "129": "gdansk-morena:plaster-blue",
+        "130": "gdansk-morena:plaster-red",
+        "131": "gdansk-morena:gothic-brick",
+        "132": "gdansk-morena:concrete-grey",
+        "133": "gdansk-morena:copper",
+        "134": "gdansk-morena:zinc",
+        "135": "gdansk-morena:tile-light",
+        "136": "gdansk-morena:tile-dark",
+        "137": "gdansk-morena:setts",
+        "138": "gdansk-morena:flags",
+        "139": "gdansk-morena:tile-orange",
+        "140": "gdansk-morena:tile-brown",
+        "141": "gdansk-morena:tile-grey",
+        "142": "gdansk-morena:roof-dark",
+        "143": "gdansk-morena:stone-pale",
+        "144": "gdansk-morena:stone-grey",
+        "145": "gdansk-morena:plaster-bordeaux",
+        "146": "gdansk-morena:plaster-mustard",
+        "147": "gdansk-morena:plaster-sage",
+        "148": "gdansk-morena:plaster-peach",
+        "149": "gdansk-morena:plaster-slate",
+        "150": "gdansk-morena:plaster-pink",
+        "151": "gdansk-morena:plaster-ivory",
+        "152": "gdansk-morena:brick-old",
+        "153": "gdansk-morena:brick-dark",
+        "154": "gdansk-morena:paint-green",
+        "155": "gdansk-morena:paint-blue",
+        "156": "gdansk-morena:paint-rose",
+        "157": "gdansk-morena:paint-ochre",
+        "158": "gdansk-morena:paint-wine",
+        "159": "gdansk-morena:paint-grey",
+        "160": "gdansk-morena:door-oak",
+        "161": "gdansk-morena:door-dark",
+        "162": "gdansk-morena:door-green",
+        "163": "gdansk-morena:door-blue",
+        "164": "gdansk-morena:door-red",
+        "165": "gdansk-morena:door-white",
+        "166": "gdansk-morena:sacred-24",
+        "167": "gdansk-morena:sacred-1",
+        "168": "gdansk-morena:sacred-16",
+        "169": "gdansk-morena:sacred-37",
+        "170": "gdansk-morena:sacred-138",
+        "171": "gdansk-morena:sacred-120",
+        "172": "gdansk-morena:sacred-142",
+        "173": "gdansk-morena:sacred-4",
+        "174": "gdansk-morena:sacred-143",
+        "175": "gdansk-morena:sacred-121",
+        "176": "gdansk-morena:sacred-30",
+        "177": "gdansk-morena:sacred-15",
+        "178": "gdansk-morena:sacred-132",
+        "179": "gdansk-morena:sacred-152",
+        "180": "gdansk-morena:sacred-136",
+        "181": "gdansk-morena:sacred-161"
+      },
+      "royale": {
+        "players": 50,
+        "widthM": 1900,
+        "depthM": 1440,
+        "landRadius": 1192.015137,
+        "planeHeight": 320,
+        "planeLine": 2020,
+        "planeSeconds": 84.166664,
+        "firstAt": 189.880951,
+        "startDps": 1,
+        "roundSeconds": 1153,
+        "finds": 1247,
+        "stages": [
+          [
+            670.900024,
+            145.899994,
+            135.5,
+            1
+          ],
+          [
+            377.600006,
+            97.400002,
+            76.300003,
+            1.4
+          ],
+          [
+            212.5,
+            70.099998,
+            42.900002,
+            2.6
+          ],
+          [
+            119.599998,
+            54.799999,
+            24.200001,
+            4.6
+          ],
+          [
+            67.300003,
+            46.099998,
+            14,
+            8.1
+          ],
+          [
+            37.900002,
+            41.299999,
+            14,
+            14.4
+          ],
+          [
+            21.299999,
+            38.5,
+            14,
+            25
+          ],
+          [
+            12,
+            37,
+            14,
+            25
+          ],
+          [
+            0,
+            37.599998,
+            14,
+            25
+          ]
+        ]
+      }
+    }
+  ]
+}

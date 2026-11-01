@@ -21,12 +21,12 @@
     {
       "id": "gdansk-main-town",
       "name": "Gdansk Main Town",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": "Breachworks",
-      "description": "Central Gdansk at 1:1, built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Solo against bots. Needs Breachworks 1.0.1.",
+      "description": "Central Gdansk at 1:1. built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Deathmatch, battle royale and the Apocalypse, against bots. Needs Breachworks 1.1.0.",
       "category": "community",
       "scripts": false,
-      "size": 31797916,
+      "size": 31799490,
       "files": [
         {
           "path": "CREDITS.txt",
@@ -40,18 +40,55 @@
         },
         {
           "path": "maps/gdansk-main-town.tjmap",
-          "size": 29661131,
-          "sha256": "c8f12f3944f2b2654be0817cd9049014ca5787c4a19b933b7ea19ad333f4457a"
+          "size": 29661366,
+          "sha256": "29073b3341471cce376a4f8897c65ed6cebc8aa83ea99a8b0f456244a5bd31c2"
         },
         {
           "path": "pack.json",
-          "size": 44469,
-          "sha256": "f05aab6503a2bd0ba51ab836373342aca4e4abd4c6262788d35b3f2053454a3d"
+          "size": 45808,
+          "sha256": "ffe09ee7a28daa5a6a95be6d35618845feea12dcec6c809c9e29684c95678a98"
         },
         {
           "path": "thumb.png",
           "size": 1046025,
           "sha256": "7ec1c226ff8ba0a9bbe28ea009346b0022f6a8294c30da4a72f09e1b178dc88e"
+        }
+      ]
+    },
+    {
+      "id": "gdansk-morena",
+      "name": "Gdansk Morena",
+      "version": "1.0.0",
+      "author": "Breachworks",
+      "description": "The Morena estates of Gdansk at 1:1, on their hills. built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK. Deathmatch, battle royale and the Apocalypse, against bots. Needs Breachworks 1.1.0.",
+      "category": "community",
+      "scripts": false,
+      "size": 31154859,
+      "files": [
+        {
+          "path": "CREDITS.txt",
+          "size": 266,
+          "sha256": "82c98b69fc574a0c94e0850046e07473a49fd727421b6dbe30536877fc1272fc"
+        },
+        {
+          "path": "maps/gdansk-morena.png",
+          "size": 1050225,
+          "sha256": "318d71bf14091bdef8fa9a07dff5df58f7c6561cb107b1de49f916012e1415eb"
+        },
+        {
+          "path": "maps/gdansk-morena.tjmap",
+          "size": 29020617,
+          "sha256": "77458ca12141314f332d5e4e937b2acce5f607d1d004312e78d966e1601bcc26"
+        },
+        {
+          "path": "pack.json",
+          "size": 33526,
+          "sha256": "7a3c10b073c608527a17a528b0d8c92ef983ffe5f5927008f87e52cbe9e9a37f"
+        },
+        {
+          "path": "thumb.png",
+          "size": 1050225,
+          "sha256": "318d71bf14091bdef8fa9a07dff5df58f7c6561cb107b1de49f916012e1415eb"
         }
       ]
     },
