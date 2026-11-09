@@ -93,6 +93,43 @@
       ]
     },
     {
+      "id": "malbork-castle",
+      "name": "Malbork Castle",
+      "version": "1.0.0",
+      "author": "Breachworks",
+      "description": "The castle of the Teutonic Order at Malbork at 1:1: the High and the Middle Castle, the Outer Bailey, the walls, the moats and the Nogat. Built from open data: map data (c) OpenStreetMap contributors, heights and air photo from GUGiK, the floor plans of 1799 (public domain). Team deathmatch ten against ten or free for all, twenty players with bots. Needs Breachworks 1.3.0.",
+      "category": "community",
+      "scripts": false,
+      "size": 3287882,
+      "files": [
+        {
+          "path": "CREDITS.txt",
+          "size": 385,
+          "sha256": "e16ac29747bc8aef5b57e59ef5d3fa2f9108fd1dc744978c18c168d3a9ff341e"
+        },
+        {
+          "path": "maps/malbork-castle.png",
+          "size": 987434,
+          "sha256": "ab9aec1995b75f568adab5180e5be721b4848e405757be7be2665cc8acb545e1"
+        },
+        {
+          "path": "maps/malbork-castle.tjmap",
+          "size": 1274514,
+          "sha256": "16acaee46e2480fba2f5a2b6cfd2d9b83e190832513d4e081daac1305a011514"
+        },
+        {
+          "path": "pack.json",
+          "size": 38115,
+          "sha256": "520e06f05b516698a6cebcaa1bb31ca2097090390467bd670ac7e11ad3811c26"
+        },
+        {
+          "path": "thumb.png",
+          "size": 987434,
+          "sha256": "ab9aec1995b75f568adab5180e5be721b4848e405757be7be2665cc8acb545e1"
+        }
+      ]
+    },
+    {
       "id": "vampire-heist",
       "name": "Vampire heist",
       "version": "1.0.0",
